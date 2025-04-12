@@ -20,6 +20,7 @@ document
       .then((res) => res.json())
       .then((data) => {
         console.log('Successful', data);
+        alert("Message Sent Successful!");
         this.reset();
       })
       .catch((err) => console.log('err', err));
